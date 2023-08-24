@@ -1,0 +1,55 @@
+.content {
+  display: none;
+}
+.content.active-content {
+  display: block;
+}
+button.tabs.font {
+  padding: 17px 7px;
+  border-radius: 13px;
+  margin-left: 10px;
+}
+.active-tabs {
+  background-image: linear-gradient(
+    to right,
+    rgba(89, 114, 201, 1),
+    rgba(228, 169, 255, 0.3)
+  ) !important;
+}
+button.tabs.font:first-child {
+  margin-left: 0px;
+}
+.block ul li {
+  /* background-image: url(/_next/static/media/Setting.0ab6e19a.png); */
+  background-repeat: no-repeat;
+  background-position: top 0px left 0px;
+  background-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.bloc-tabs {
+  width: 20%;
+  border-radius: 14px;
+  background-color: rgba(114, 140, 229, 0.6);
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.text-center.pt-20.plan-wrp {
+  /* background-image: url('../../public//Vector.png'); */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  background-color:#DCB4F5;
+}
+/* .text-center.pt-20.plan-wrp:before{
+content: '';
+position: absolute;
+background-image: url('../../public/Vector-2.png');
+background-repeat: no-repeat;
+background-size: contain;
+height: 100%;
+width: 100%;
+left: 0;
+bottom: 0;
+} */

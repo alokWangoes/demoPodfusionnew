@@ -1,0 +1,1098 @@
+.automation_page_wrp {
+    background-color: rgb(220, 235, 239);
+    background-image: url(../../public/automation-icons/automation-bg.svg);
+    background-size: cover;
+    width: 1454px;
+}
+
+.automation-body {
+    display: flex;
+    margin-top: 35px;
+}
+
+.automation-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 64px;
+    right: 25px;
+    height: 40px;
+    width: 300px;
+}
+
+.automation-header-username {
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.automation-header-faq {
+    cursor: pointer;
+    margin: 0px 10px 0px 0px;
+
+}
+
+.automation-header-notification {
+    cursor: pointer;
+    margin: 0px 10px 0px 20px;
+}
+
+.automation-header-notification-box {
+    position: absolute;
+    right: 29px;
+    top: 102px;
+    width: 370px;
+    height: 450px;
+    border-bottom: 2px solid rgba(255, 128, 166, 0.30);
+    border-radius: 10px;
+    background: rgba(75, 63, 146, 0.80);
+}
+
+.notification-title {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    /* justify-content: center */
+    align-items: center;
+    height: 62px;
+    border-bottom: 1px solid white;
+}
+
+.notification-title-text {
+    margin-left: 11px;
+    margin-top: 7px;
+    color: #FFF;
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.notification-title-status {
+    margin-left: 145px;
+    margin-top: 30px;
+}
+
+.notification-type-earlier {
+    color: #3D318A;
+    font-family: Roboto Flex;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    /* align-items: center; */
+    background: white;
+    height: 30px;
+}
+
+.notification-type-earlier p {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.earlier-notifications {
+    background-color: rgba(206, 184, 218, 1);
+    height: 145px;
+}
+
+.earlier-notification-section {
+    display: inline-flex;
+    height: 62px;
+}
+
+.this-week-notifications {
+    background-color: white;
+}
+
+.earlier-notification-icon {
+    /* height: 28px; */
+    width: 77px;
+    /* background: white; */
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.earlier-notification-text {
+    margin-top: 3px;
+    margin-left: 17px;
+    color: #3D318A;
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.earlier-notification-time {
+    margin-left: 17px;
+    margin-top: 2px;
+    position: relative;
+    bottom: 15px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Roboto Flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+
+}
+
+.notification-read-all {
+    display: flex;
+    justify-content: center;
+    color: #3D318A;
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-color: #3D318A;
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(158, 152, 197, 0.70);
+    height: 22px;
+}
+
+.notification-read-all p {
+    position: relative;
+    top: 4px;
+}
+
+
+.automation-header-profile {
+    cursor: pointer;
+    margin: 0px 10px 0px 20px;
+    color: rgba(61, 49, 138, 0.72);
+    font-family: Roboto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.automation-profile-section {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 7px;
+    top: 102px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 0.5px solid rgba(151, 131, 180, 0.80);
+    background: #F1D6DE;
+    border-radius: 10px;
+}
+
+.automation-profile-options {
+    height: 31px;
+    margin-left: 0px;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.249);
+    display: flex;
+    align-items: center;
+}
+
+.border-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.border-bottom-log-out {
+    background-color: white;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    height: 22px;
+}
+
+.automation-profile-icon {
+    margin-left: 5px;
+}
+
+.automation-profile-text {
+    margin-left: 10px;
+    color: rgba(61, 49, 138, 0.72);
+    font-family: Roboto Serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.automation-profile-log-out-text {
+    color: blue !important;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.automation-section {
+    margin-left: 30px;
+}
+
+.side-bar-main {
+    display: flex;
+    margin-top: 35px;
+}
+
+img.sidebar-icon {
+    width: 24px;
+}
+
+.side-bar-icon {
+    z-index: 999;
+    margin-left: 41px;
+    width: 80px;
+    height: 1447px;
+    position: relative;
+    /* background: linear-gradient(271deg, #EAC0CD 0%, rgba(255, 255, 255, 0.00) 100%); */
+    border-left: 1px solid #827ba9;
+    border-top: 1px solid #827ba9;
+    border-right: 2px solid #827ba9;
+    border-top-right-radius: 20px;
+}
+
+.icon:hover svg path {
+    fill: #B14DD4;
+    border-radius: 10px;
+}
+
+.icon:hover:last-child svg {
+    fill: #9CBAE4;
+}
+
+.icon:hover:last-child svg path {
+    stroke: #B14DD4 !important;
+    fill: unset !important;
+}
+
+.icon:hover svg {
+    border-radius: 10px;
+    background-color: #9CBAE4;
+}
+
+.side-bar-icon:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    height: 50%;
+    background: linear-gradient(360deg, #eac0cd 0%, rgba(255, 255, 255, 0) 100%);
+    width: 100%;
+}
+
+.icons {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+}
+
+.icon {
+    width: 50px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+    cursor: pointer;
+}
+
+.dropdown-icon {
+    width: 23px;
+    height: 20px;
+    margin-top: 6px;
+    padding-top: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    /* background-color: rgba(156, 186, 228, 1); */
+    /* border: 1px solid white; */
+    /* border-radius: 10px; */
+}
+
+.show {
+    background-color: white;
+    border-top-right-radius: 20px;
+    position: absolute;
+    left: 42px;
+    width: 27%;
+    height: 1447px;
+    opacity: 1;
+    text-align: center;
+    z-index: 2;
+}
+
+.hide {
+    display: none;
+}
+
+.sidebar-inner-box {
+    margin-top: 72px;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.sidebar-values {
+    padding-top: 65px;
+    display: block;
+}
+
+.sidebar-content {
+    display: inline-flex;
+    width: 100%;
+    transition: 0.4s ease-in;
+    /* position: relative; */
+    height: auto;
+    margin-bottom: 75px;
+}
+
+.sidebar-content:hover .sidebar-inner-text:before {
+    opacity: 1;
+}
+
+
+.sidebar-inner-icon {
+    padding-right: 15px;
+    text-align: left;
+    width: 40px;
+    height: 24px;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.sidebar-title {
+    color: #3d318a;
+    font-family: Roboto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sidebar-inner-text {
+    margin-left: 32px;
+    color: #3d318a;
+    position: relative;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s ease-in-out;
+}
+
+.sidebar-inner-text:before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    opacity: 0;
+    bottom: -7px;
+    background-color: rgba(177, 77, 212, 1);
+    border-radius: 10px;
+}
+
+.sidebar-content:hover .sidebar-inner-text,
+.sidebar-content:hover .sidebar-content svg path {
+    color: #3D318A;
+}
+
+.automaton-box-icon-wrp:hover svg g {
+    fill: #3D318A;
+}
+
+.automaton-box-icon-wrp:hover svg path {
+    fill: #3D318A;
+}
+
+
+.automaton-box-icon-wrp:hover .automation-box-icons-text {
+    color: #3D318A;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+
+/* search bar component  css */
+
+.automation-search {
+    width: 1258px;
+    height: auto;
+    border: 2px solid #9cbae4;
+    border-radius: 20px;
+    margin-top: 35px;
+    display: flex;
+    background-color: #dcb4f599;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.box-wrapper {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.automation-title {
+    color: #827ba9;
+    font-family: Aclonica;
+    width: 718px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 44px auto;
+    width: 587px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(180deg,
+            hsl(341deg 50% 84%) 0%,
+            hsl(311deg 62% 82%) 25%,
+            hsl(281deg 75% 81%) 50%,
+            hsl(252deg 88% 80%) 75%,
+            hsl(222deg 100% 79%) 100%);
+}
+
+.search-bar {
+    padding: 16.9px;
+    width: 99%;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.search-input {
+    width: 338px;
+    height: 57px;
+    color: rgb(43 34 100 / 94%);
+    font-family: Roboto Flex;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    border: none;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-icon {
+    margin-left: 189px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Automation Box css  */
+
+.automation-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1258px;
+    height: 105px;
+    margin-top: 16px;
+    background-image: linear-gradient(to right, #7c1989, #763298, #6f44a5, #6854b1, #6162ba, #5b69be, #5570c1, #5076c4, #4a78c4, #437ac4, #3d7cc4, #377ec3);
+    display: flex;
+    padding: 23px 20px;
+    align-items: center;
+    gap: 380px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.automation-inner-box {
+    display: inline-flex;
+    align-items: center;
+    width: 99%;
+    height: auto;
+    color: white;
+}
+
+.automation-inner-text {
+    color: #fff;
+    font-family: Roboto Serif;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.automation-box-icons {
+    display: inline-flex;
+    margin-left: 246px;
+}
+
+.automation-box-icons-text {
+    margin-left: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.automaton-box-icon-wrp {
+    margin-left: 44px;
+    cursor: pointer;
+    color: #fff;
+    font-family: Roboto Serif;
+    font-size: 20px;
+}
+
+
+
+.automation-box-icon {
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+}
+
+
+
+.icon path {
+    /* fill: #827ba9; */
+}
+
+.icon :hover {
+    fill: rgba(177, 77, 212, 1);
+}
+
+.icon :active {
+    fill: rgba(61, 49, 138, 1);
+}
+
+/* .active path {
+    background-color: white !important;
+    fill: rgba(61, 49, 138, 1);
+} */
+
+.active :hover {
+    background-color: white !important;
+    fill: rgba(61, 49, 138, 1) !important;
+}
+
+/* Create workflow box css */
+
+.create-workflow {
+    margin-top: 22px;
+    margin-bottom: 25px;
+    display: inline-flex;
+    width: 1260px;
+    height: auto;
+}
+
+.create-workflow-btn {
+    display: flex;
+    width: 209px;
+    height: 40px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-shrink: 0;
+    color: var(--white, #fff);
+    font-family: Aclonica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+
+    border-radius: 5px;
+    background: linear-gradient(0deg,
+            rgba(255, 255, 255, 0.4) 0%,
+            rgba(255, 255, 255, 0.4) 100%),
+        linear-gradient(270deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(255, 0, 31, 0.15) 100%),
+        linear-gradient(231deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(255, 0, 184, 0.15) 100%),
+        linear-gradient(136deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(143, 0, 255, 0.15) 100%),
+        linear-gradient(127deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(36, 0, 255, 0.15) 100%),
+        linear-gradient(216deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(0, 255, 163, 0.15) 100%),
+        linear-gradient(270deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(250, 255, 0, 0.15) 100%),
+        linear-gradient(270deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(255, 122, 0, 0.15) 100%),
+        rgba(255, 0, 77, 0.6);
+
+    /* Drop shadow */
+    box-shadow:
+        0px 0px 1px 0px rgba(0, 0, 0, 0.5),
+        1px 1px 2px 0px rgba(0, 0, 0, 0.48);
+}
+
+.create-workflow-filters {
+    margin-left: 660px;
+    display: inline-flex;
+}
+
+
+
+.workflow-range {
+    height: 40px;
+    border-radius: 10px;
+    background: #fbe6f2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    width: 202px;
+    cursor: pointer;
+}
+
+.workflow-range-text {
+    color: rgba(61, 49, 138, 0.8);
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.workflow-range-value {
+    color: #3d318a;
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    margin-top: 37px;
+    position: relative;
+    top: 9px;
+    padding: 4px 10px 4px 10px;
+    background: rgba(240, 200, 223, 0.84);
+}
+
+.workflow-range-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.workflow-order {
+    height: 40px;
+    border-radius: 10px;
+    background: #fbe6f2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    width: auto;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.workflow-order-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 11px;
+    position: relative;
+    top: 10px;
+}
+
+
+.workflow-content-wrapper {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin-top: 30px; */
+    margin-bottom: 19px;
+    margin-left: 3px;
+    background-color: white;
+    width: 1258px;
+    height: 192px;
+    padding: 20px;
+    /* align-items: center; */
+    border-radius: 20px;
+}
+
+.workflow-new {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: -57px;
+    left: -10px;
+}
+
+
+.workflow-content-title {
+    color: #4e4395;
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.workflow-content-text {
+    width: 252px;
+    color: #4e4395;
+    font-family: Roboto Flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    /* margin-left: 21px; */
+    /* margin-top: 15px; */
+}
+
+.workflow-content-status {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: auto;
+    height: 34px;
+    margin-top: 30px;
+    position: relative;
+    right: 7px;
+    z-index: 0;
+}
+
+.active {
+    /* background: rgba(77, 200, 227, 0.3); */
+}
+
+.active.icon:hover svg {
+    background-color: unset;
+}
+
+.active.icon svg path {
+
+    fill: rgba(61, 49, 138, 1);
+}
+
+.active.icon:hover svg path {
+    /* fill: unset !important; */
+}
+
+.inactive {
+    background: rgba(231, 173, 88, 0.3);
+}
+
+.failed {
+    background: rgba(255, 0, 31, 0.3);
+}
+
+.success {
+    background: rgba(40, 167, 69, 0.5);
+}
+
+.workflow-content-status-text {
+    margin-right: 12px;
+    margin-left: 5px;
+    color: rgba(61, 49, 138, 0.5);
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.workflow-content-status-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 27px;
+    margin-left: 10px;
+}
+
+.workflow-content-status-icon path {
+    fill: #3d318a80;
+}
+
+.workflow-content-action-wrapper {
+    text-align: right;
+}
+
+.workflow-content-acton-dropdown-icon {
+    cursor: pointer;
+    position: relative;
+    bottom: 6px;
+    left: 18px;
+}
+
+.workflow-content-acton-dropdown {
+    width: 53px;
+    height: 145px;
+    border: 2px solid #4E4395;
+    border-radius: 20px;
+    background: rgba(220, 180, 245, 0.80);
+
+    position: relative;
+    left: 1186px;
+    bottom: 141px;
+    /* top: 2px; */
+    /* bottom: 100px; */
+}
+
+
+.workflow-content-action-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border-top: 2px solid #4e4395;
+    background: linear-gradient(180deg,
+            rgba(220, 180, 245, 0.7) 0%,
+            rgba(220, 180, 245, 0) 100%);
+    width: 149px;
+    position: relative;
+    right: 29px;
+    height: 56px;
+    bottom: 7px;
+    z-index: 0;
+}
+
+.Workflow-content-inner-right {
+    display: inline-flex;
+    position: relative;
+    /* align-items: flex-end; */
+    /* margin-top: 25px; */
+    /* padding-right: 35px; */
+    /* align-content: space-between; */
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.text-md-right {
+    text-align: right;
+}
+
+.workflow-content-right.col-md-6.d-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.workflow-content-action-box-icon1 {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+}
+
+.workflow-content-data-needed {
+    font-family: Roboto Serif;
+    width: 150px;
+    font-size: 19px;
+    font-style: normal;
+    padding: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-underline-offset: 0.19em;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: rgba(255, 0, 31, 0.4);
+    height: 32px;
+    border-radius: 10px;
+    position: relative;
+    right: 16px;
+    top: 12px;
+}
+
+.workflow_content_action_box_start {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.workflow_content_action_box_stop {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.workflow_content_action_box_text {
+    color: #3d318a;
+    font-family: Roboto Flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.workflow-range-option-wrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 267px;
+    margin-top: -28px;
+    background: rgba(240, 200, 223, 0.84);
+    height: auto;
+    width: 30px;
+}
+
+.workflow-range-option {
+
+    cursor: pointer;
+    background: rgba(240, 200, 223, 0.84);
+    color: #3d318a;
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+}
+
+.workflow_order_option_wrp {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 10px;
+    background: #fbe6f2;
+    width: 190px;
+    cursor: pointer;
+    position: absolute;
+    right: 34px;
+    margin-top: -22px;
+    z-index: 1;
+}
+
+.workflow_order_option {
+    color: rgba(61, 49, 138, 0.8);
+    font-family: Roboto serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 50px;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.workflow_order_option:hover {
+    background-color: #a884be;
+}
+
+
+element.style {}
+
+.workflow_content_edited_date {
+    position: relative;
+    left: 10px;
+    margin-bottom: 0px;
+    width: 321px;
+    margin-top: 32px;
+    text-align: right;
+    color: #4E4395;
+    /* font-family: Roboto Flex; */
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.workflow_content_edited_time_icon {
+    position: relative;
+    top: 3px;
+    right: 2px;
+}
+
+.warning {
+    background: rgba(255, 153, 0, 0.4) !important;
+}
+
+.danger {
+    background: rgba(255, 0, 31, 0.4) !important;
+}
+
+
+.workflow-range-option :hover {
+    background-color: red;
+}
+
+.workflow-content-action-dropdown-inner-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 1px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.workflow-content-action-dropdown-inner-content p {
+    margin-top: 5px;
+    color: #655CA0;
+    font-family: Roboto Flex;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.duplicate {
+    position: relative;
+    right: 9px;
+}
+
+.delete {
+    position: relative;
+    right: 5px;
+}
+
+.dropdown-icon-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.sidebar-dropdown-box {
+    position: relative;
+    bottom: 32px;
+    left: 41px;
+    height: 86px;
+}
+
+.sidebar-dropdown-data {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 67px;
+    left: 14px;
+    color: #3D318A;
+    font-size: 13px;
+}

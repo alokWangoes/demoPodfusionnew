@@ -1,0 +1,27 @@
+.subscribe-text {
+  color: #fff;
+  text-align: center;
+  font-family: Aclonica;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.05px;
+}
+
+.subscribe-para {
+  color: #3d318a;
+  width: 90%;
+  font-family: Roboto Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 22%;
+  padding-right: 10%;
+}
+
+.plan {
+  width: 100%;
+  margin: auto;
+}
