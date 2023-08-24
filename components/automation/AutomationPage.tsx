@@ -295,7 +295,7 @@ const AutomationPage = () => {
 
   const actionDropdown = (id: any) => {
     openActionDropdown == id
-      ? setOpenActionDropdown(undefined)
+      ? setOpenActionDropdown(false)
       : setOpenActionDropdown(id)
   }
 
