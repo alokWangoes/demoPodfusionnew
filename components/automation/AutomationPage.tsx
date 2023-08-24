@@ -268,11 +268,11 @@ const sideBarContent: Interface["sideBarContent"] = [
 ]
 
 const AutomationPage = () => {
-  const [openValSelector, setOpenValSelector] = useState(false)
-  const [openOrderSelector, setOpenOrderSelector] = useState(false)
-  const [openNotificationBox, setOpenNotificationBox] = useState(false)
-  const [openProfileOption, setOpenProfileOption] = useState(false)
-  const [openActionDropdown, setOpenActionDropdown] = useState(false)
+  const [openValSelector, setOpenValSelector] =  useState<any>(false)
+  const [openOrderSelector, setOpenOrderSelector] = useState<any>(false)
+  const [openNotificationBox, setOpenNotificationBox] = useState<any>(false)
+  const [openProfileOption, setOpenProfileOption] = useState<any>(false)
+  const [openActionDropdown, setOpenActionDropdown] = useState<any>(false)
 
   const {
     register,
